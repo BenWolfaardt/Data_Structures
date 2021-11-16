@@ -12,10 +12,6 @@ As not to ocupy too many repositories with "tutorials" I've decided to group the
 
 ---
 
-### Naming convention of branches:
-> Before the `-` is the tutorial's website name;  
-> After the `-` is the tutorial's name;
-
 # `git checkout --orphan BRANCHNAME` 
 
 The following is an approach to implement **monorepos** as found [here](https://stackoverflow.com/questions/14679614/is-there-a-way-to-put-multiple-projects-in-a-git-repository#14680329).
