@@ -17,7 +17,38 @@
 
 #------------------------------------------------------Solution------------------------------------------------------#
 
+def unique(string):
+    # Assuming character set is ASCII (128 characters)
+    if len(string) > 128:
+        return False
 
+    char_set = [False for _ in range(128)]
+    for char in string:
+        val = ord(char)
+        if char_set[val]:
+            # char already found in string
+            return False
+        char_set[val] = True
+
+    return True
 
 #--------------------------------------------------------Tests-------------------------------------------------------#
 
+import unittest
+
+class Test(unittest.TestCase):
+    dataTrue = [('abcd'), ('s4fad'), ('')]
+    dataFail = [('23ds2'), ('hb 627jh=j ()'), ('asdfa')]
+
+    def test_unique(self):
+        # true check
+        for test_string in self.dataTrue:
+            actual = unique(test_string)
+            self.assertTrue(actual)
+        # false check
+        for test_string in self.dataFail:
+            actual = unique(test_string)
+            self.assertFalse(actual)
+
+if __name__ == "__main__":
+    unittest.main()
