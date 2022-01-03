@@ -188,6 +188,7 @@ class SinglyLinkedList:
 
     
 # TODO: finish up by ensurin that the applicable functions from https://github.com/akzare/Algorithms/blob/master/src/main/python/algorithms/datastructures/linkedlist/DoublyLinkedList.py are all implemented 
+# and from here: (yt Google course / Java) https://github.com/williamfiset/Algorithms/blob/master/src/main/java/com/williamfiset/algorithms/datastructures/linkedlist/DoublyLinkedList.java
 # TODO: tidy up and constant formatting
 
 sll1 = SinglyLinkedList()
