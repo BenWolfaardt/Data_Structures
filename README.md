@@ -6,9 +6,9 @@ This repository contains various tutorials that I have worked through in order t
 
 # Language Implementation
 
-1. [C++](https://github.com/BenWolfaardt/Data_Structures/tree/01-C%2B%2B)
+<!-- 1. [C++](https://github.com/BenWolfaardt/Data_Structures/tree/01-C%2B%2B) -->
 2. [Python](https://github.com/BenWolfaardt/Data_Structures/tree/02-Python)
-3. [Go](https://github.com/BenWolfaardt/Data_Structures/tree/03-Go)
+<!-- 3. [Go](https://github.com/BenWolfaardt/Data_Structures/tree/03-Go) -->
 
 ---
 
